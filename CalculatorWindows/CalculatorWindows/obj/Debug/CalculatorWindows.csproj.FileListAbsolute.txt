@@ -1,0 +1,10 @@
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\bin\Debug\CalculatorWindows.exe.config
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\bin\Debug\CalculatorWindows.exe
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\bin\Debug\CalculatorWindows.pdb
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.csprojAssemblyReference.cache
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.Form1.resources
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.Properties.Resources.resources
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.csproj.GenerateResource.cache
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.csproj.CoreCompileInputs.cache
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.exe
+C:\Users\Pervenc\source\repos\CalculatorWindows\CalculatorWindows\obj\Debug\CalculatorWindows.pdb
