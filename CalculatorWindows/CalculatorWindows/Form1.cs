@@ -16,38 +16,42 @@ namespace CalculatorWindows
         {
             InitializeComponent();
         }
-        //
+
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {   //Convert inserted number from string to float
             float value = float.Parse(textBox1.Text) + float.Parse(textBox2.Text);
+            //Change result box text based on result and convert it to string
             textBox3.Text = Convert.ToString(value);
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        {   //Convert inserted number from string to float
             float value = float.Parse(textBox1.Text) - float.Parse(textBox2.Text);
+            //Change result box text based on result and convert it to string
             textBox3.Text = Convert.ToString(value);
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
+        {   //Convert inserted number from string to float
             float value = float.Parse(textBox1.Text) * float.Parse(textBox2.Text);
+            //Change result box text based on result and convert it to string
             textBox3.Text = Convert.ToString(value);
         }
 
         private void button4_Click(object sender, EventArgs e)
-        {
+        {   //Convert inserted number from string to float
             float value = float.Parse(textBox1.Text) / float.Parse(textBox2.Text);
+            //Change result box text based on result and convert it to string
             textBox3.Text = Convert.ToString(value);
         }
 
         private void button5_Click(object sender, EventArgs e)
-        {
+        { //Set all input boxes to null upon clicking on clear button
             string value = "";
             textBox1.Text = value;
             textBox2.Text = value;
@@ -59,9 +63,11 @@ namespace CalculatorWindows
         {
 
             string input = textBox1.Text;
+            //Check if input is not a positive number
             if (!int.TryParse(input, out _))
             {
                 Console.WriteLine("Not an integer");
+                //if its not a number, clear it
                 textBox1.Text = "";
 
             }
@@ -73,9 +79,11 @@ namespace CalculatorWindows
         {
 
             string input = textBox2.Text;
+            //Check if input is not a positive number
             if (!int.TryParse(input, out _))
             {
                 Console.WriteLine("Not an integer");
+                //if its not a number, clear it
                 textBox2.Text = "";
 
             }

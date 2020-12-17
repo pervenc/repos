@@ -11,13 +11,13 @@
         <div>
 
         	<asp:Label ID="Label1" runat="server" Text="Number1: "></asp:Label>
-			<asp:TextBox ID="TxtNumber1" runat="server" Height="30px" style="margin-left: 5px"></asp:TextBox>
+			<asp:TextBox ID="TxtNumber1" runat="server" Height="30px" style="margin-left: 5px" OnTextChanged="TxtNumber1_TextChanged"></asp:TextBox>
 			<br />
 			<asp:Label ID="Label2" runat="server" Text="Number2: "></asp:Label>
-			<asp:TextBox ID="TxtNumber2" runat="server" Height="30px" style="margin-left: 5px"></asp:TextBox>
+			<asp:TextBox ID="TxtNumber2" runat="server" Height="30px" style="margin-left: 5px" OnTextChanged="TxtNumber2_TextChanged"></asp:TextBox>
 			<br />
 			<asp:Label ID="Label3" runat="server" Text="Result: "></asp:Label>
-			<asp:TextBox ID="ResultBox" runat="server" Height="30px" style="margin-left: 24px"></asp:TextBox>
+			<asp:TextBox ID="ResultBox" runat="server" Height="30px" style="margin-left: 24px" OnTextChanged="ResultBox_TextChanged" ReadOnly="True"></asp:TextBox>
 			<br />
 			<br />
 			<asp:Button ID="ButtonSum" runat="server" Height="30px" Text="+" Width="30px" OnClick="ButtonSum_Click" />
